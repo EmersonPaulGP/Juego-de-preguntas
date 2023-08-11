@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Juego de Preguntas</title>
+</head>
+<body>
+  <h1>Juego de Preguntas</h1>
+  <form id="question-form">
+    <div class="question-container">
+      <label for="answer1">Pregunta 1: ¿Que es HTML?</label>
+      <input type="text" id="answer1" class="answer-input" required minlength="5">
+    </div>
+    <div class="question-container">
+        <label for="answer1">Pregunta 2: ¿Que es CSS?</label>
+        <input type="text" id="answer1" class="answer-input" required minlength="5">
+      </div>
+      <div class="question-container">
+        <label for="answer1">Pregunta 3: ¿Que es JavaScript?</label>
+        <input type="text" id="answer1" class="answer-input" required minlength="5">
+      </div>
+      <div class="question-container">
+        <label for="answer1">Pregunta 4: ¿Que es un backend?</label>
+        <input type="text" id="answer1" class="answer-input" required minlength="5">
+      </div>
+      <div class="question-container">
+        <label for="answer1">Pregunta 5: ¿Que es un frontend?</label>
+        <input type="text" id="answer1" class="answer-input" required minlength="5">
+      </div>
+    <button type="submit" id="submit-button" disabled>Enviar</button>
+  </form>
+  <button id="start-button">Iniciar</button>
+  <div id="countdown"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
